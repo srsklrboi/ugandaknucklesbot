@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 
-const PREFIX = "--";
+const PREFIX = "ugkn ";
 
 const TOKEN = "NDEwMjk0MzU5MTU0NjIyNDY0.DVrIuw.EHBnFb8JSaAHlhUl1O8E-NW0h5U";
 
@@ -12,7 +12,7 @@ bot.on("ready", function(message) {
 
 bot.on("message", function(message) {
     bot.user.setStatus('Online')
-    bot.user.setGame('--knucklesneedshelp')
+    bot.user.setGame('ugkn knucklesneedshelp')
     if(message.author.equals(bot.user)) return;
     if (!message.content.startsWith(PREFIX)) return;
 
@@ -30,7 +30,16 @@ bot.on("message", function(message) {
 
     case "knucklesneedshelp":
     message.channel.sendMessage("Uganda Knuckles Bot commands:")
-    message.channel.sendMessage("Test")
+    message.channel.sendMessage("ugkn ugandaknuckles : sends a picture of Uganda Knuckles")
+    message.channel.sendMessage("ugkn dounodawae : replies with a very obvious sentence")
+    message.channel.sendMessage("ugkn click : ***mass clicking***")
+    message.channel.sendMessage("ugkn spit : Uganda Knuckles will spit on you")
+    message.channel.sendMessage("ugkn ugandagang : a parody of the Gucci Gang music video with Uganda Knuckles")
+    message.channel.sendMessage("ugkn ugandaknucklesmusicvideo : a music video of Uganda Knuckles off YouTube")
+    message.channel.sendMessage("ugkn findingdawae : a picture of 'FINDING DA WAE'")
+    message.channel.sendMessage("ugkn ebola : Uganda Knuckles spreads like ebola")
+    message.channel.sendMessage("ugkn uganda : two pictures of the Ugandan flag")
+    message.channel.sendMessage("More commands comming soon!")
     break;
 
     case "credits":
