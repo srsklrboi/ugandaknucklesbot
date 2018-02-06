@@ -41,6 +41,8 @@ bot.on("message", function(message) {
     message.channel.sendMessage("More commands coming right now, just wait!!")
     message.channel.sendMessage("ugkn ebola : Uganda Knuckles spreads like ebola")
     message.channel.sendMessage("ugkn uganda : two pictures of the Ugandan flag")
+    message.channel.sendMessage("ugkn credits : the person who made me!")
+    message.channel.sendMessage("More commands coming soon!")
     break;
 
     case "credits":
