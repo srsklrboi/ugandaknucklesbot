@@ -12,7 +12,7 @@ bot.on("ready", function(message) {
 
 bot.on("message", function(message) {
     bot.user.setStatus('Online')
-    bot.user.setGame('ugkn knucklesneedshelp')
+    bot.user.setGame('ugkn help')
     if(message.author.equals(bot.user)) return;
     if (!message.content.startsWith(PREFIX)) return;
 
@@ -28,7 +28,7 @@ bot.on("message", function(message) {
     message.channel.sendMessage("U think u no da wae but u do not no da wae only me and my bruddas no da wae.")
     break;
 
-    case "knucklesneedshelp":
+    case "help":
     message.channel.sendMessage("Uganda Knuckles Bot commands:")
     message.channel.sendMessage("ugkn ugandaknuckles : sends a picture of Uganda Knuckles")
     message.channel.sendMessage("ugkn dounodawae : replies with a very obvious sentence")
