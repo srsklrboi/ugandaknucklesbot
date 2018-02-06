@@ -33,13 +33,14 @@ bot.on("message", function(message) {
     message.channel.sendMessage("ugkn ugandaknuckles : sends a picture of Uganda Knuckles")
     message.channel.sendMessage("ugkn dounodawae : replies with a very obvious sentence")
     message.channel.sendMessage("ugkn click : ***mass clicking***")
+    message.channel.sendMessage("More commands coming right now, just wait!!")
     message.channel.sendMessage("ugkn spit : Uganda Knuckles will spit on you")
     message.channel.sendMessage("ugkn ugandagang : a parody of the Gucci Gang music video with Uganda Knuckles")
     message.channel.sendMessage("ugkn ugandaknucklesmusicvideo : a music video of Uganda Knuckles off YouTube")
     message.channel.sendMessage("ugkn findingdawae : a picture of 'FINDING DA WAE'")
+    message.channel.sendMessage("More commands coming right now, just wait!!")
     message.channel.sendMessage("ugkn ebola : Uganda Knuckles spreads like ebola")
     message.channel.sendMessage("ugkn uganda : two pictures of the Ugandan flag")
-    message.channel.sendMessage("More commands comming soon!")
     break;
 
     case "credits":
