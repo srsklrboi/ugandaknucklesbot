@@ -30,6 +30,7 @@ bot.on("message", function(message) {
 
     case "knucklesneedshelp":
     message.channel.sendMessage("Uganda Knuckles Bot commands:")
+    message.channel.sendMessage("Test")
     break;
 
     case "credits":
